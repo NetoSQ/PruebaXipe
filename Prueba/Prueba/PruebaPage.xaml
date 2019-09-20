@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prueba.PruebaPage">
+   <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+       
+        <Grid VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand" 
+              RowSpacing="0" 
+              ColumnSpacing="0"
+              BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="84*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="28*"/>
+                <ColumnDefinition Width="72*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand" 
+              RowSpacing="0" 
+              ColumnSpacing="0"
+              BackgroundColor="#040c43"
+              Grid.Row="0"
+              Grid.Column="0"
+              Grid.ColumnSpan="2"
+                  Padding="30,30,30,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60*"/>
+                    <RowDefinition Height="40*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80*"/>
+                    <ColumnDefinition Width="20*"/>
+                </Grid.ColumnDefinitions>
+            
+                <Label x:Name="lblFechaMain" Grid.Row="0" Grid.Column="0" Text="Wednesday, July 10th" TextColor="#fafafa" FontSize="44" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="End" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />   
+            
+                <Grid Grid.Row="0" Grid.Column="1"  HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" > 
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33*"/>
+                        <ColumnDefinition Width="33*"/>
+                        <ColumnDefinition Width="33*"/>
+                    </Grid.ColumnDefinitions>    
+                
+                    <Image Grid.Column="0" Source="circuloAzul.png" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                    <Image Grid.Column="1" Source="circuloAzul.png" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                    <Image Grid.Column="2" Source="circuloAzul.png" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                    <Image Grid.Column="0" Source="search.png" Aspect="AspectFit"  HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image Grid.Column="1" Source="graduation.png" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image Grid.Column="2" Source="settings.png" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    
+                </Grid> 
+                
+                <Grid Grid.Row="1" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" > 
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="25*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="14*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="22*"/>
+                    </Grid.ColumnDefinitions>    
+                
+                    <Label x:Name="lblOrders" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Text="8 Work Orders" TextColor="#fafafa" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />   
+                    <Frame x:Name="frm1" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#23ebb8" CornerRadius="2" HasShadow="false"/>
+                    <Frame x:Name="frm2" Grid.Row="1" Grid.Column="2" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#23ebb8" CornerRadius="2" HasShadow="false"/>
+                    <Frame x:Name="frm3" Grid.Row="1" Grid.Column="3" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#0c326e" CornerRadius="2" HasShadow="false"/>
+                    <Frame x:Name="frm4" Grid.Row="1" Grid.Column="4" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#0c326e" CornerRadius="2" HasShadow="false"/>
+                    <Frame x:Name="frm5" Grid.Row="1" Grid.Column="5" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#0c326e" CornerRadius="2" HasShadow="false"/>
+                    <Frame x:Name="frm6" Grid.Row="1" Grid.Column="6" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#0c326e" CornerRadius="2" HasShadow="false"/>
+                    <Frame x:Name="frm7" Grid.Row="1" Grid.Column="7" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#0c326e" CornerRadius="2" HasShadow="false"/>
+                    <Frame x:Name="frm8" Grid.Row="1" Grid.Column="8" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#0c326e" CornerRadius="2" HasShadow="false"/>
+
+                </Grid> 
+                
+            </Grid>
+            
+            <Grid VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand" 
+              RowSpacing="0" 
+              ColumnSpacing="0"
+              BackgroundColor="Green"
+              Grid.Row="1"
+              Grid.Column="0"
+                  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*"/>
+            </Grid.ColumnDefinitions>
+            
+                <ListView Grid.Row="0" x:Name="fechasLV" RowHeight="100" SeparatorVisibility="None" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                    <ListView.ItemTemplate>
+                       <DataTemplate>
+                            <ViewCell >
+                                <ViewCell.View >
+                                    <StackLayout Padding="5,10,5,10" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  >
+                                        <Grid BackgroundColor="White" RowSpacing="0" ColumnSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="30*"/>
+                                                <ColumnDefinition Width="70*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="50*"/>
+                                                <RowDefinition Height="50*"/>
+                                            </Grid.RowDefinitions>
+                                            
+                                                <Label x:Name="lblnum" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Text="{Binding orderNum}" TextColor="#bfbfbf" FontSize="52" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />   
+                                                <Label x:Name="lbldia" Grid.Row="0" Grid.Column="1" Text="{Binding date, StringFormat='{0:dddd}'}" TextColor="#bfbfbf" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="End" HorizontalOptions="StartAndExpand" VerticalOptions="End" />   
+                                                <Label x:Name="lblfechaMes" Grid.Row="1" Grid.Column="1" Text="{Binding date, StringFormat='{0:MMMM dd}'}" TextColor="#bfbfbf" FontSize="18" FontAttributes="None" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" HorizontalOptions="StartAndExpand" VerticalOptions="Start" />   
+                                                
+                                        </Grid>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                       </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView> 
+                
+            </Grid>
+            
+            <Grid VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand" 
+              RowSpacing="0" 
+              ColumnSpacing="0"
+              Grid.Row="1"
+              Grid.Column="1"
+                  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100*"/>
+                </Grid.ColumnDefinitions>
+        
+                <ListView Grid.Row="0" x:Name="workOrdersLV" RowHeight="240" SeparatorVisibility="None" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                    <ListView.ItemTemplate>
+                       <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View >
+                                    <StackLayout Padding="15,15,15,15" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  >
+                                        <Frame BackgroundColor="#fafafa" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HasShadow="true" CornerRadius="2" Padding="0" >
+                                            <Grid BackgroundColor="#fafafa" RowSpacing="0" ColumnSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="4*"/>
+                                                    <ColumnDefinition Width="31*"/>
+                                                    <ColumnDefinition Width="65*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="17*"/>
+                                                    <RowDefinition Height="60*"/>
+                                                    <RowDefinition Height="23*"/>
+                                                </Grid.RowDefinitions>
+                                                
+                                                <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" Source="Costco.jpeg" BackgroundColor="#fafafa" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                                                <Image Grid.Column="0" Grid.Row="0" Source="orderSi.png" Aspect="AspectFill" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                               
+                                                <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="2" BackgroundColor="#fafafa" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10" > 
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="20*"/>
+                                                        <RowDefinition Height="30*"/>
+                                                        <RowDefinition Height="30*"/>
+                                                        <RowDefinition Height="20*"/>
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="100*"/>
+                                                    </Grid.ColumnDefinitions>    
+                                                    
+                                                    <Label x:Name="lblnumOrder" Grid.Row="1" Grid.Column="0" Text="{Binding workOrderNumber, StringFormat='#{0:N}'}}" TextColor="#bfbfbf" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="End" HorizontalOptions="StartAndExpand" VerticalOptions="End" />   
+                                                    <Label x:Name="lblNombreOrder" Grid.Row="2" Grid.Column="0" Text="{Binding customerName}" TextColor="#696969" FontSize="26" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="End" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" />   
+                                                    <Label x:Name="lblAprobada" Grid.Row="0" Grid.Column="0" Text=" COMPLETED " TextColor="#1fdbab" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="End" VerticalOptions="CenterAndExpand" />   
+                                                    
+                                                </Grid> 
+                                                
+                                                <BoxView Grid.Row="1" Grid.Column="2" HeightRequest="1" Color="#d9d9d9" BackgroundColor="Gray" HorizontalOptions="FillAndExpand" VerticalOptions="End" />
+                                                
+                                                <Grid Grid.Row="2"  Grid.Column="0" Padding="10,0,10,0" Grid.ColumnSpan="3" BackgroundColor="#fafafa" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" > 
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="100*"/>
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="10*"/>
+                                                        <ColumnDefinition Width="90*"/>
+                                                    </Grid.ColumnDefinitions>    
+                                               
+                                                    <Label x:Name="lblScope" Grid.Row="0" Grid.Column="0" Text="SCOPE" TextColor="#0c326e" FontSize="18" FontAttributes="None" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" />   
+                                                    
+                                                </Grid>
+                                                
+                                            </Grid>
+                                        </Frame>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                       </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView> 
+                
+            </Grid>
+            
+        </Grid>
+    </StackLayout>
+</ContentPage>
